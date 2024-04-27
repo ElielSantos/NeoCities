@@ -1,123 +1,229 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>🪲</title>
+    <title>🧃</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: 'Andale Mono', monospace;
-            background-color: black;
-            font-size: 100%;
-            font-weight: bold;
-            margin: 0 auto;
-            max-width: 75%;
-            color: #79ffa0;
-            background-image: url('/img/cadente.gif');
-            background-repeat: repeat;
-            background-size: 200px 200px;
-            background-attachment: fixed;
-            display: flex; /* Torna o corpo um flex container */
-            flex-direction: column; /* Organiza os itens em uma coluna */
-            align-items: center; /* Centraliza os itens horizontalmente */
-        }
-        @keyframes borderAnimation {
-            0% {
+<style>
+    body {
+        font-family: 'Andale Mono', monospace;
+        background-color: black;
+        font-size: 100%;
+        font-weight: bold;
+        margin: 0 auto;
+        max-width: 75%;
+        color: #79ffa0;
+        background-image: url('/img/4.gif');
+        background-repeat: repeat;
+        background-size: 150px 150px;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    @keyframes borderAnimation {
+        0% {
             transform: scale(1);
-            }
-            50% {
+        }
+        50% {
             transform: scale(1.1);
-            }
-            100% {
+        }
+        100% {
             transform: scale(1);
+        }
+    }
+    
+    .image-container {
+        display: inline-block;
+        position: relative;
+        animation: borderAnimation 2s infinite;
+    }
+    
+    @media only screen and (max-width: 540px) {
+        body {
+            max-width: 100%;
+            font-size: 90%;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .button-container img {
+            width: 88px;
+            height: 31px;
+            margin-right: 5px;
+        }
+        
+        @media screen and (max-width: 480px) {
+            .button-container img:nth-child(n+4) {
+                display: none;
             }
         }
-        .image-container {
-            display: inline-block;
-            position: relative;
-            animation: borderAnimation 2s infinite;
-        }
-        @media only screen and (max-width: 540px) {
-            body {
-                margin: 2%;
-                max-width: 100%;
-                font-size: 110%;
-            }
-        }
-        hr {
-            width: 100%;  
-            margin: 20px 0;  
-        }
-        .planet-image {
-            width: 100%; /* Define a largura das imagens */
-        }
-        dd {
-            display: inline;
-        }
-        * {
-            scrollbar-width: thin;
-            scrollbar-color: magenta yellow;
-        }
-        /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/others/oth-7/oth639.cur), auto !important;}
+    }
+    
+    hr {
+        width: 100%;
+        margin: 6px 0;
+        height: 2px;
+        border: none;
+    }
+    
+    .planet-image {
+        width: 100%;
+        
+    }
+    
+    dd {
+        display: inline;
+    }
+    
+    * {
+        scrollbar-width: thin;
+        max-width: 100%;
+        scrollbar-color: magenta yellow;
+    }
+ 
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    footer p {
+    font-size: 12px; 
+    } 
+    
+    * {
+        cursor: url(https://cur.cursors-4u.net/others/oth-7/oth639.cur), auto !important;    /* Start https://www.cursors-4u.com */ 
+    }    
 </style>
 </head>
 <body>
-<img src="https://i10.glitter-graphics.org/pub/1049/1049670gtkewgjyae.gif" alt="Button 1" style="width: 200px; height: 30px; margin-right: 10px;">
-<hr color="#FFFF00">
-<marquee direction="right"><i>🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲🪲</></marquee>
-<hr color="#0000FF">
-<a href="https://durdudunya.neocities.org/verdeCollage" class="planet1">
+<img src="/img/cat.gif">
+<hr color="#1E90FF">
+<marquee direction="lefft">{01000011 01010010 01011001 01010011 01010100 01000001 01001100 00100000 01000011 01000001 01010011 01010100 01001100 01000101 01010011 {ATARAXIA · MEMENTO MORI · CONFORTARE ESTO VIR · AMOR FATI ·} Φιλοσοφία [ 0b10110 · f(x)=(x) ]</marquee>
+<hr color="#FF00FF">
+<br>
+<a class="planet1">
     <div class="image-container">
-        <img src="/img/espada.png" alt="Planeta" class="planet-image">
+        <img src="/img/animed.gif" width="100%">
     </div>
-    <hr color="#FF00FF">
+    </a>
+    <a href="https://durdudunya.neocities.org/verdeCollage" class="planet1">
+    <br>
+    <center>
+    <hr color="blue">
+    </center>
     <div class="image-container">
-        <img src="/img/nextPage.gif" alt="Próxima Página" class="planet-image">
+         <img height="200" src="/img/nextPage.gif"> 
     </div>
 </a>    
-<hr color="#FF0000">
-<a href='https://megacontador.com.br/' style='display: flex; justify-content: flex; align-items: flex;' title='Contador de Visitas do MegaContador'>
-    <!--<img src="https://capstasher.neocities.org/88x31Buttons/alien2.gif" alt="Button 1" style="width: 88px; height: 31px; margin-right: 10px;">-->
-    <img src="https://capstasher.neocities.org/88x31Buttons/59%20(copy%201).gif" alt="Button 1" style="width: 88px; height: 31px; margin-right: 10px;">
-   
-    <img src='https://megacontador.com.br/img-NUHDGq3jtVgo5P9D-40.gif' border='0'>
- 
-    <img src="https://capstasher.neocities.org/88x31Buttons/andnow.jpg" alt="Button 1" style="width: 88px; height: 31px; margin-left: 10px;">
-    <!--<img src="https://capstasher.neocities.org/88x31Buttons/antinazi.gif" alt="Button 1" style="width: 88px; height: 31px; margin-left: 10px;">-->
+<hr color="#9370DB">
+<a class="button-container">
+    <img src="/img/cc.gif" width="88px" height="31px" alt="Button 1">
+    <img src="https://cyber.dabamos.de/88x31/volta.gif" alt="Button 2"> 
+    <img src="https://caitsith.neocities.org/cyberoccultism.png" alt="Button 3">
+    <img src="https://caitsith.neocities.org/nokia.png" alt="Button 4">
+    <img src="https://capstasher.neocities.org/88x31Buttons/59%20(copy%201).gif" alt="Button 5">
+    <img src="https://capstasher.neocities.org/88x31Buttons/alien2.gif" alt="Button 6"> 
+    <img src="https://capstasher.neocities.org/88x31Buttons/andnow.jpg" alt="Button 7">
+    <img src="https://caitsith.neocities.org/corp.gif" alt="Button 8">
+    <img src="https://64.media.tumblr.com/edf332914a3b3c3d14a159490fbf478c/859dad767039a52d-33/s100x200/05c31beb73d48ec930cfbc25632d46d7d137340c.gifv" alt="Button 9">
+    <img src="https://capstasher.neocities.org/88x31Buttons/antinazi.gif" alt="Button 10">
 </a>
-<hr color="#FF4500"><marquee style="color: white;" direction="left"><i>BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE BEETLEJUICE</i></marquee>
+<hr color="#6495ED">
+<br>
+<div class="planet1">
+    <div class="image-container">
+        <img src="/img/pain.png" alt="Planeta" class="planet-image">
+        <span class="moving-text">"Feel The Music"</span>
+        <br>
+    </div>
+</div> 
+<div class="planet1">
+    <span id="bloquetitle"></span>                  
+    <iframe id="video" width="260" height="166px"  src="https://www.youtube.com/embed/fUTJa00puDU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 5px;margin-left: 2px;margin-top: 2px;"></iframe>
+</div>
 
+<hr color="#4B0082">
+<marquee style="color: white;" direction="left"><i>BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE🦹BEETLEJUICE</i></marquee>
+<hr color="#4B0082">
 <a class="planet1">
     <div class="image-container">
         <img src="/img/lydia.gif" alt="Planeta" class="planet-image">
     </div>
-    <hr color="#00CED1">
+    <br>
+    <hr color="#4682B4">
+    <br>
     <div class="image-container">
         <img src="/img/betelgeuse.gif" alt="Próxima Página" class="planet-image">
     </div>
 </a>
-<hr color="#00FF00"><marquee style="color: white;" direction="right"><i>Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь Белая ночь</i></marquee> 
-<hr color="#DCDCDC">
+<br>
+<hr color="#FFFFFF">
+
+<marquee style="color: white;" direction="left"><i>Мне не нужен алкоголь
+И наркотики не интересны
+Беру на дискотеку вновь
+Своё проверенное средство
+
+О этот корень!
+Корень имбиря!
+Будоражит кровь мою и сердце
+И рвется в пляс душа моя
+Головой я выбиваю дверцы
+О этот корень!
+Корень имбиря!
+О этот корень!
+Корень имбиря!
+О этот корень!
+Корень имбиря!
+О этот корень!
+Корень имбиря!</i></marquee>
+
+<hr color="#FFFFFF">
+<br>
 <a class="planet1">
     <div class="image-container">
-     <img src="/img/cs.gif" alt="Planeta" class="planet-image">
+        <img src="/img/tiredredeyes.gif"  width="50%">
+    </div>
+    <br><br>
+<hr color="#4682B4">
+<br><br>
+    <div class="image-container">
+        <img src="/img/espada.png" width="100%">
     </div>
 </a>
-<hr>
+<br><br>
+
+
 <img src="/img/fita.png" alt="Planeta" class="planet-image">
-<hr>
 <dl>
-    <dd>#</dd>
-    <dd>#</dd>
-    <dd class="book-entry">
-        <a href='/txt/books.txt' style="text-decoration: none; color: inherit;">BOOKS</a>
-    </dd>
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="margin-right: 10px;">
+            <a href='/txt/books.txt' style="text-decoration: none; color: inherit;">MY-BOOKS</a>
+        </div>        
+        <div style="margin-right: 10px;">
+            <a style="text-decoration: none; color: inherit;">
+                <img src="https://megacontador.com.br/img-egmoH2KtS0TzMaR5-40.gif" border="0" style="width: 60px; height: 31px;">
+            </a>
+        </div>
+        <div>
+            <a style="text-decoration: none; color: inherit;">VISITORS</a> 
+         </div>
+    </div>
 </dl>
 <a class="planet1">
     <div class="image-container">
      <img src="/img/footer.gif" alt="Planeta" class="planet-image">
     </div>
 </a>
+<center><img src="/img/manga.webp" width="300px"></center>
 <footer>
 <p>Copyright © 2024 durdudunya</p>
 </footer>
