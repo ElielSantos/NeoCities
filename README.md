@@ -1,1 +1,1 @@
-durdudunyia.neocities.org
+durdudunya.neocities.org
